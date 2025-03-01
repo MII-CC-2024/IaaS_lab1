@@ -28,7 +28,7 @@ Los pasos serían:
 
 #### Instancia Webserver
 
-Crear una instancia en la red pública, con un Segurity Group habilitando el puerto 22 para una IP específica y el puerto 80 para todas las peticiones. Instalar Apache con PHP.
+Crear una instancia (Ubuntu) en la red pública, con un Segurity Group habilitando el puerto 22 para una IP específica y el puerto 80 para todas las peticiones. Instalar Apache con PHP.
 
 Los pasos:
 
@@ -82,7 +82,7 @@ sudo apt install php libapache2-mod-php php-mysql
 
 #### Instancia Database
 
-Crear una instancia en la red privada, con un Segurity Group habilitando el puerto 22 y el 3306 para la IP interna de la máquina Webserver. Instalar MySQL, crear un nuevo usuario, una base de datos, otrogar permisos al usuario a esa base de datos y permitir el acceso remoto al servidor MySQL.
+Crear una instancia (Ubuntu) en la red privada, con un Segurity Group habilitando el puerto 22 y el 3306 para la IP interna de la máquina Webserver. Instalar MySQL, crear un nuevo usuario, una base de datos, otrogar permisos al usuario a esa base de datos y permitir el acceso remoto al servidor MySQL.
 
 Pasos:
 
